@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+       
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ahorcado</title>
+    
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/gameSprint2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Anek+Telugu:wght@200;300&family=Inter:wght@200;400&display=swap" rel="stylesheet">
+        <link rel="icon" href="../img/logoAlura.ico">
+    </head>
+    
+<body>
+    
+    <header class="header">
+        <img  src="../img/logoAlura.png" alt="Logo Alura Latam">
+    </header>
+
+    <main>
+
+            <div id="winner" class="hidden"><p>Excelente..!<br>Has ganado la Partida.</p></div>
+            <div id="loser" class="hidden"><p>Has perdido..!<br>Intentalo otra vez.</p></div>
+        
+        <div id="contenedor">
+        
+            <div id="divCanvas">
+                <canvas width="300" height="360"></canvas>
+            </div>
+
+            <div id="divButtonsGame">
+                <button id="newGame">Nuevo juego</button>
+                <a href="../index.html"><button id="surrender">Salir</button></a>             
+            </div>
+        
+        </div>
+        
+        <div id="divDiscovered">
+            <div id="letters"></div>
+            <div id="dashes"></div>
+        </div>
+       
+        <div id="divErrors">
+            <div id="lettersError"></div>
+        </div>
+        
+    </main>
+    
+    <footer>
+        <p>2022 © Copyright - Create By Pablo de Dominicis</p>
+    </footer>
+    
+    <script src="../js/palabras.js"></script>
+    <script src="../js/gameSprint2.js"></script>
+</body>
+</html>

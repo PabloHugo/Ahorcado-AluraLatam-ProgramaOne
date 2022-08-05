@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ahorcado</title>
+    
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/agregarPalabra.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Anek+Telugu:wght@200;300&family=Inter:wght@200;400&display=swap" rel="stylesheet">
+        <link rel="icon" href="../img/logoAlura.ico">
+
+            
+    </head>
+    
+    <body>
+        
+        <header class="header">
+            <img  src="../img/logoAlura.png" alt="Logo Alura Latam">
+        </header>
+    
+    <main>
+        
+        <form id="idForm">
+            <div id="divInputText">
+                <input type="text" id="inputText" maxlength="8" autofocus tabindex="1">
+            </div>
+        </form>
+       
+        <div id="nota">
+            <p>Ingrese una palabra con un máximo de 8 letras..!</p>
+        </div>
+        
+        <div id="divButtons">
+            <button id="save" onclick="guardarYcomenzar()">Guardar y Comenzar</button>
+            <a href="../index.html"><button id="cancel">Cancelar</button></a>                 
+        </div>
+   
+    </main>
+    
+    <footer>
+        <p>2022 © Copyright - Create By Pablo de Dominicis</p>
+    </footer>
+    
+    <script src="../js/palabras.js"></script>
+    <script src="../js/agregarPalabra.js"></script>
+</body>
+</html>
